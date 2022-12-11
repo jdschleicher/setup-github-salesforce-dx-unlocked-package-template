@@ -17,6 +17,8 @@ $environment_alias_to_github_secrets = @{
     "PROD" = "PROD_AUTH_URL"
 }
 
+$project_scratch_def_json_path = "config/project-scratch-def.json"
+
 ForEach ($environment_alias in $environment_alias_to_github_secrets.Keys) {
 
     ### create required github environment where github secrets will be applied to
