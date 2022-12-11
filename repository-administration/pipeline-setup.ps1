@@ -1,7 +1,7 @@
 
 
 ### repository where pipeline setup will be setup in
-$github_repository = ""
+$github_repository = "setup-github-salesforce-dx-unlocked-package-template"
 
 ### either your username if personal repository or organization name that owns the repository
 $github_organization_owner = "jdschleicher"
